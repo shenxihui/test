@@ -1,0 +1,344 @@
+<!doctype html>
+<html xmlns=http://www.w3.org/1999/xhtml xmlns:bd=http://www.baidu.com/2010/xbdml>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  
+  
+  <title>百度一下，你就知道 </title>
+  
+  
+  
+  <style>
+  *{margin:0px;padding:0px;}
+  body{width:100%;height:1099px;background:url(images/beijing.jpg) center,no-repeat;font-family:"Microsoft Yahei";}
+
+  #header{width:972px;height:130px;margin:0 auto;}
+  #logo{width:293px;height:53px;float:left;margin-top:20px;margin-left:15px;}
+  #head{width:128px;height:18px;font-size:14px;margin-right:45px;
+    float:right;color:#b7b7b7;margin-top:40px;}
+  a{border:none;text-decoration:none;}
+  #head a{font-size:14px;font-family:"微软雅黑";color:#b7b7b7;}
+  a:hover{color:red;font-weight:bold;}
+  a:active{background:blue;color:#000000;font-weight:bold;}
+  
+  #top2{float:left;margin-left:7px;margin-top:30px;}
+  #menu{margin:0 auto;width:961px;height:40px;background:url(images/kuan.jpg) center,repeat-x;}
+  #nav{margin: 0px;padding: 0px;text-align:center;}
+  #nav li a, #nav li{float:left;}
+  #nav li a span{font-size:14px;}
+  #nav li small{font-size:xx-small;color:#a8a8a8;}
+  #nav li{list-style: none;position: relative; width:118px;height:25px;line-height:15px;margin-top:1px;}
+  #nav li a{text-align:center;text-decoration: none;color: white;
+   height:38px; width:118px; border-right:1px solid #7e9cb8;}
+  #nav li #lx{border-right:0px;}
+  #nav li a:hover{height:40px;background:url(images/tiao.jpg) repeat-x center;}
+
+  #main{width:962px;margin:0 auto;}
+  #left{float:left;width:192px;height:760px;}
+  #cpzx{float:left;width:188px;height:447px;margin-top:10px;margin-left:2px;
+  border-right:1px solid #dec9d8;border-left:1px solid #dec9d8;
+  border-top:1px solid #dec9d8;border-bottom:1px solid #dec9d8;}
+  #js{float:left;margin-top:10px;margin-left:18px;line-height:11px;}
+  #js a{font-size:13px;font-family:"微软雅黑";color:#7b7b7b;font-weight:bold;}
+  #js li{list-style-image: url(images/tubiao.jpg);}
+  #js a:hover,a:active{color:blue;text-decoration:underline;}
+
+  #lxwm{float:left;width:188px;height:172px;margin-top:10px;margin-left:2px;
+  border-right:1px solid #dec9d8;border-left:1px solid #dec9d8;
+  border-top:1px solid #dec9d8;border-bottom:1px solid #dec9d8;}
+  #wenzi{float:left;margin-top:5px;margin-left:2px;height:135px;}
+  #wenzi p{font-size:13px;font-family:"微软雅黑";color:#00274e;margin:5px;}
+
+  #jszc{float:left;width:188px;height:70px;margin-top:10px;margin-left:2px;
+  border-right:1px solid #dec9d8;border-left:1px solid #dec9d8;
+  border-top:1px solid #dec9d8;border-bottom:1px solid #dec9d8;
+  background-image:url(images/jszc.jpg);}
+  #zc{float:right;margin-top:15px;color:#fff;margin-right:10px;}
+  #zc a{font-size:16px;font-weight:bold;}
+  #zc p{font-size:10px;color:#b9c7cf;}
+
+  #tel{float:left;width:188px;height:45px;margin-top:10px;margin-left:2px;
+  border-right:1px solid #dec9d8;border-left:1px solid #dec9d8;
+  border-top:1px solid #dec9d8;border-bottom:1px solid #dec9d8;
+  background-image:url(images/tel.jpg);}
+  #dh1{float:right;color:red;margin-top:10px;margin-right:15px;font-size:17px;}
+
+  #right{float:left;width:762px;height:760px;}
+
+  #fade_focus{width:762px;height:263px;margin-top:10px;margin-left:8px;}
+  .loading{float:left;width:761px;color:red;text-align:center;
+  font-family:Verdana, Arial, Helvetica, sans-serif;font-weight:bold;}
+  #dh{display:none;}
+  .d1{width:761px;height:263px;overflow:hidden;border:#666666 0px solid;
+  background-color:#000000;position:relative;}
+  .d2{width:761px;height:263px;overflow:hidden;}
+
+  .num_list{left:0px;font-size:12px;padding:4px 0px;height:5px;overflow:hidden;}
+
+  .num_list span{display:inline-block;height:5px;padding-left:2px;}
+
+  .button{position:absolute; z-index:1000; right:0px; bottom:2px; 
+  font-size:13px; font-weight:bold; font-family:Arial, Helvetica, sans-serif;}
+
+  .b1,.b2{background-color:#857265;display:block;
+  float:left;padding:5px 8px;margin-right:5px;margin-bottom:5px;
+  color:#FFFFFF;text-decoration:none;cursor:pointer;}
+  .b2{color:#857265;background-color:#FF6633;}
+
+  #nr{float:left;width:762px;height:158px;margin-top:20px;margin-left:10px;}
+  #nr1{float:left;width:362px;height:150px;}
+  #gsdt{float:left;width:362px;height:18px;border-bottom: 1px solid #000000;}
+  #fl{float:left;margin-top:-3px;}
+  #dt{font-size:16px;color:#ff0700;}
+  #more{float:right;margin-top:2px;}
+
+  #nr2{float:left;width:360px;height:120px;margin-top:5px;}
+  #nr2 li {width:360px;height:25px;line-height:35px;
+    list-style-image: url(images/jt.jpg);font-size:12px;
+    margin-left:12px;float: left;color:#00274e;}
+  #nr2 li a{color:#00274e;}
+  #nr2 a:hover{color:red;font-weight:bold;}
+  #sz{float: right;margin-right:15px;}
+
+  #nr3{float:right;width:362px;height:150px;margin-right:5px;}
+
+  #cpzs{float:left;width:762px;height:304px;margin-top:18px;margin-left:5px;}
+  #gdcp{float:left;width:762px;height:33px;background:url(images/tiao2.jpg) repeat-x;}
+  #zs{float:left;margin-left:15px;margin-top:5px;}
+  #zs #dt{color:#fff;font-size:14px;}
+  #gd{float:right;margin-top:5px;margin-right:15px;color:#fff;font-size:14px;}
+  
+  #tp{float:left;width:762px;height:261px;margin-top:20px;}
+  #tp img{width:142px;height:123px;border-top:1px solid #857265;
+  border-bottom:1px solid #857265;border-left:1px solid #857265;
+  border-right:1px solid #857265;margin:2px;}
+
+  #foot{float:left;width:962px;height:77px;margin-top:80px;margin-left:1px;
+  background:url(images/tiao3.jpg) repeat-x;text-align:center;}
+  div{display: block;}
+  </style>
+
+ </head>
+ <body>
+ <div id="header">
+  <div id="top">
+      <div id="logo">
+       <a href=""><img src="images/logo.jpg"></a>
+	  </div>
+	  <div id="head">
+       <span style="float:left;">  
+	   <a href="">设为首页</a> | <a href="">添加收藏</a>
+	   </span>
+	  </div>
+  </div>
+  <div id="top2">
+   <div id="menu">
+       <ul id="nav">
+        <li><a href=""><span>首页</span></br><small>HOME</small></a></li>
+		
+        <li><a href=""><span>关于我们</span></br><small>RBOUT US</small></a></li>  
+        <li><a href=""><span>产品中心</span></br><small>PRODUCTS</small></a></li> 
+        <li><a href=""><span>最新资讯</span></br><small>NEWS</small></a></li>       
+        <li><a href=""><span>典型案例</span></br><small>CRSE</small></a></li>
+        <li><a href=""><span>技术支持</span></br><small>CUSTOMER</small></a></li>
+        <li><a href=""><span>客户服务</span></br><small>SERVICE</small></a></li>
+        
+	    <li><a href="" id="lx"><span>联系我们</span></br><small>CONTACT</small></a></li>
+       </ul>
+  </div> 
+ </div>
+ </div>
+
+ <div id="main">
+   <div id="left">
+     <div id="cpzx">
+       <img src="images/cpzx.jpg" width="188px">
+       <div id="js">
+		    <li><a href="">二氧化碳传感器</a></li></br>
+			<li><a href="">二氧化碳变送器</a></li></br>
+			<li><a href="">温湿度传感器</a></li></br>
+			<li><a href="">气象传感器</a></li></br>
+			<li><a href="">灰尘传感器</a></li></br>
+			<li><a href="">空气质量传感器</a></li></br>
+			<li><a href="">电化学气体传感器</a></li></br>
+			<li><a href="">有毒有害气体检测仪</a></li></br>
+			<li><a href="">可燃气体检测仪</a></li></br>
+			<li><a href="">手持气体检测仪</a></li></br>
+			<li><a href="">气体分析仪</a></li></br>
+			<li><a href="">压力传感器</a></li></br>
+			<li><a href="">压力变送器</a></li></br>
+			<li><a href="">OME气体检测模块</a></li></br>
+			<li><a href="">超声波浓度仪</a></li></br>
+			<li><a href="">超声波液位仪</a></li></br>
+			<li><a href="">超声波物位仪</a></li>
+	  </div>
+	 </div>
+
+	 <div id="lxwm">
+       <img src="images/lxwm.jpg" width="188px">
+	   <div id="wenzi">
+		<p>深圳市旺晟达科技有限公司</p>
+		<p>电话：18665384355</p>
+		<p>传真：0755-29184055</p>
+		<p>地址：深圳市宝安区观澜镇新田工业区中瑞工业园C栋3楼</p>
+	   </div>
+	 </div>
+
+	 <div id="jszc">
+       <div id="zc">
+        <a>技术支持</a>
+		<p>Technical Support</p>
+	   </div>
+	 </div>
+
+	 <div id="tel">
+	   <div id="dh1">
+        <p>0755-29184055</p>
+	   </div>
+	 </div>
+   </div>
+
+   <div id="right">
+    <div id="fade_focus">
+     <div class="loading"><br />
+	 <img src="images/banner.jpg"/>
+	 </div>
+     <ul id="dh">
+      <li><a href="" target="_blank"><img src="images/banner.jpg" width="761" height="263"/></a></li>
+      <li><a href="" target="_blank"><img src="images/tu5.jpg" width="761" height="263"/></a></li>
+      <li><a href="" target="_blank"><img src="images/tu6.jpg" width="761" height="263"/></a></li>
+      <li><a href="" target="_blank"><img src="images/tu7.jpg" width="761" height="263"/></a></li>
+	</div>
+    
+	<div id="nr">
+      <div id="nr1">
+        <div id="gsdt">
+          <span id="fl">
+              <b><font id="dt">公司动态</font></b>
+		  </span>
+		  <a href="" id="more"><img src="images/more.jpg"></a>
+		</div>
+		<ul id="nr2">
+              <li>
+               <a href="" class="demo">推出新款二氧化碳温度湿度传感器控制器</a>
+               <span id="sz">05-18</span>
+              </li>
+			  <li>
+               <a href="" class="demo">诚征二氧化碳传感器产品分销商</a>
+               <span id="sz">05-18</span>
+              </li>
+			  <li>
+               <a href="" class="demo">公司推出智能温湿度控制器</a>
+               <span id="sz">05-18</span>
+              </li>
+			  <li>
+               <a href="" class="demo">二氧化碳传感器在啤酒厂的应用</a>
+               <span id="sz">05-18</span>
+              </li>
+			  <li>
+               <a href="" class="demo">公司为智能家居提供二氧化碳温湿度一...</a>
+               <span id="sz">05-18</span>
+              </li>
+          </ul>
+	  </div>
+
+	  <div id="nr3">
+        <div id="gsdt">
+          <span id="fl">
+              <b><font id="dt">行业动态</font></b>
+		  </span>
+		  <a href="" id="more"><img src="images/more.jpg"></a>
+		</div>
+		<ul id="nr2">
+              <li>
+               <a href="" class="demo">推出新款二氧化碳温度湿度传感器控制器</a>
+               <span id="sz">05-18</span>
+              </li>
+			  <li>
+               <a href="" class="demo">诚征二氧化碳传感器产品分销商</a>
+               <span id="sz">05-18</span>
+              </li>
+			  <li>
+               <a href="" class="demo">公司推出智能温湿度控制器</a>
+               <span id="sz">05-18</span>
+              </li>
+			  <li>
+               <a href="" class="demo">二氧化碳传感器在啤酒厂的应用</a>
+               <span id="sz">05-18</span>
+              </li>
+			  <li>
+               <a href="" class="demo">公司为智能家居提供二氧化碳温湿度一...</a>
+               <span id="sz">05-18</span>
+              </li>
+          </ul>
+	  </div>
+    </div>
+	<div id="cpzs">
+     <div id="gdcp">
+       <span id="zs">
+          <b><font id="dt">产品展示</font></b>
+	   </span>
+	   <a href="" id="gd">>>更多产品</a>
+	  </div>
+
+	  <div id="tp">
+          <a href=""><img src="images/tu1.jpg"></a>
+          <a href=""><img src="images/tu2.jpg"></a>
+          <a href=""><img src="images/tu3.jpg"></a>
+          <a href=""><img src="images/tu4.jpg"></a>
+		  <a href=""><img src="images/tu0.jpg"></a>
+		  <a href=""><img src="images/tu1.jpg"></a>
+          <a href=""><img src="images/tu2.jpg"></a>
+          <a href=""><img src="images/tu3.jpg"></a>
+          <a href=""><img src="images/tu4.jpg"></a>
+		  <a href=""><img src="images/tu0.jpg"></a>
+	  </div>
+
+   </div>
+   </div>
+
+  <div id="foot">
+  <span id="xxdz">
+   <b>Copyright © 深圳旺晟达科技有限公司</b></br>
+   <b>电话：0755-29185555&nbsp;&nbsp;&nbsp;客户经理：164455 王先生</b></br>
+   <b>地址：深圳市宝安区观澜镇新田工业区中瑞工业园C栋3楼&nbsp;&nbsp;粤ICP备1022334x号-1 流量统计</b>
+  </span>
+  </div>
+ </div>
+
+
+
+<script language="javascript" type="text/javascript">
+//主函数
+var s=function(){
+var interv=2000; //切换间隔时间
+var interv2=10; //切换速速
+var opac1=80; //文字背景的透明度
+var source="fade_focus" //焦点轮换图片容器的id名称
+//获取对象
+function getTag(tag,obj){if(obj==null){return document.getElementsByTagName(tag)}else{return obj.getElementsByTagName(tag)}}
+function getid(id){return document.getElementById(id)};
+var opac=0,j=0,t=63,num,scton=0,timer,timer2,timer3;var id=getid(source);id.removeChild(getTag("div",id)[0]);var li=getTag("li",id);var div=document.createElement("div");var title=document.createElement("div");var span=document.createElement("span");var button=document.createElement("div");button.className="button";for(var i=0;i<li.length;i++){var a=document.createElement("a");a.innerHTML=i+1;a.onclick=function(){clearTimeout(timer);clearTimeout(timer2);clearTimeout(timer3);j=parseInt(this.innerHTML)-1;scton=0;t=63;opac=0;fadeon();};a.className="b1";a.onmouseover=function(){this.className="b2"};a.onmouseout=function(){this.className="b1";sc(j)};button.appendChild(a);}
+//控制图层透明度
+function alpha(obj,n){if(document.all){obj.style.filter="alpha(opacity="+n+")";}else{obj.style.opacity=(n/100);}}
+//控制焦点按钮
+function sc(n){for(var i=0;i<li.length;i++){button.childNodes[i].className="b1"};button.childNodes[n].className="b2";}
+title.className="num_list";title.appendChild(span);alpha(title,opac1);id.className="d1";div.className="d2";id.appendChild(div);id.appendChild(title);id.appendChild(button);
+//渐显
+var fadeon=function(){opac+=5;div.innerHTML=li[j].innerHTML;span.innerHTML=getTag("img",li[j])[0].alt;alpha(div,opac);if(scton==0){sc(j);num=-2;scrolltxt();scton=1};if(opac<100){timer=setTimeout(fadeon,interv2)}else{timer2=setTimeout(fadeout,interv);};}
+//渐隐
+var fadeout=function(){opac-=5;div.innerHTML=li[j].innerHTML;alpha(div,opac);if(scton==0){num=2;scrolltxt();scton=1};if(opac>0){timer=setTimeout(fadeout,interv2)}else{if(j<li.length-1){j++}else{j=0};fadeon()};}
+//滚动文字
+var scrolltxt=function(){t+=num;span.style.marginTop=t+"px";if(num<0 && t>3){timer3=setTimeout(scrolltxt,interv2)}else if(num>0 && t<62){timer3=setTimeout(scrolltxt,interv2)}else{scton=0}};
+fadeon();
+}
+//初始化
+window.onload=s;
+</script>
+ </body>
+</html>
